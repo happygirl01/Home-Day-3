@@ -1,20 +1,20 @@
 module.exports = function binarySearch () {
-  Array.prototype.oneToTwenty = function oneToTwenty (){
+  Array.prototype.toTwenty = function oneToTwenty (){
   for( var i=1; i<=20; i++){
     this.push(i);
   }
   return this;
 }
 
-Array.prototype.twoToForty = function twoToForty (){
-  for( var i=2; i<=40; i+2){
+Array.prototype.toForty = function twoToForty (){
+  for( var i=2; i<=40; i+=2){
     this.push(i);
   }
   return this;
 }
 
-Array.prototype.tenToOneThousand = function tenToOneThousand(){
-  for( var i=10; i<=1000; i+10){
+Array.prototype.toOneThousand = function tenToOneThousand(){
+  for( var i=10; i<=1000; i+=10){
     this.push(i);
   }
   return this;
