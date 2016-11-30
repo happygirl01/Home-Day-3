@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	width:80%;
+	margin:0 auto;
+	color: orange;
+}
+
+#site_title
+{
+	color:pink;
+	background-color:purple;
+	font-size:40px;
+	padding-left:20px;
+	padding-top:20px;
+	height:60px;
+	padding-bottom:20px
+	font-weight:bolder;
+}
+
+#top_nav ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+#top_nav ul li
+
+{
+		display:inline-block;
+		width:90px;
+		
+}
+
+
+#top_nav ul li a
+{
+	text-decoration:none;
+	display:block;
+	background-color:pink;
+	color:white;
+	padding:5px;
+	border-radius:15px;
+	border:1px solid pinkgreen;
+	
+}
+
+#top_nav ul li a:hover
+{	
+	color:pink;
+	background-color:green;
+
+}
+#top_nav
+{
+	margin-top:2px;
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer
+{
+		color:pink;
+		background-color:purple;
+		text-align:center;
+		font-size:16px;
+		font-family:"Comic Sans MS", cursive;
+}
